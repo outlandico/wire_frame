@@ -1,0 +1,51 @@
+header {
+    background-color: black; /* Black container */
+    color: white; /* Text color */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of the logo */
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the menu horizontal */
+}
+.nav-bar {
+    display:flex;
+    background-color: red;
+    width: 460;
+    height: 100px;
+}
+.navigation ul li {
+    margin-left: 20px; /* Adjust the spacing between navigation items */
+}
+
+.navigation ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first navigation item */
+}
+
+.navigation ul li a {
+    color: white; /* Text color for navigation links */
+    text-decoration: none;
+}
+
+.navigation {
+    margin-left: auto; /* Move the navigation to the right */
+}
+
+/* Align nav1 through nav4 inline */
+.navigation ul li {
+    display: inline;
+}
