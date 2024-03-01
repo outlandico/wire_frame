@@ -1,51 +1,97 @@
-header {
-    background-color: black; /* Black container */
-    color: white; /* Text color */
-    padding: 10px 0;
+h2 {
+    font: bold;
+    text-align: center;
 }
 
-.container {
+/* Navigation bar */
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Max width of the container */
-    margin: 0 auto; /* Center the container */
-}
-
-.logo img {
-    width: 100px; /* Adjust the width of the logo */
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Make the menu horizontal */
-}
-.nav-bar {
-    display:flex;
-    background-color: red;
-    width: 460;
+    max-width: 960px;
+    margin: 0 auto;
     height: 100px;
 }
-.navigation ul li {
-    margin-left: 20px; /* Adjust the spacing between navigation items */
+
+/* Logo container */
+.logo-container {
+    margin-left: 0px;
+    background-color: #989292;
+    width: 200px;
+    height: 70px;
 }
 
-.navigation ul li:first-child {
-    margin-left: 0; /* Remove left margin from the first navigation item */
+/* Navigation menu */
+.nav-menu {
+    display: flex;
+    align-items:flex-start; /* Align items towards the bottom of the container */
+    margin-right: 20px;
 }
 
-.navigation ul li a {
-    color: white; /* Text color for navigation links */
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-.navigation {
-    margin-left: auto; /* Move the navigation to the right */
+ul li {
+    padding: 0 10px;
 }
 
-/* Align nav1 through nav4 inline */
-.navigation ul li {
-    display: inline;
+/* Additional CSS for other containers */
+.hero-image {
+    margin: 20px auto;
+    background-color: #989292;
+    width: 960px;
+    height: 450px;
+    text-align: center;
+    text-justify: auto;
+    
+}
+
+
+.sub-banner-container {
+    display: flex;
+    gap: 30px; /* Set gap between flex items */
+    justify-content: space-between; /* Align items evenly with space between them */
+    max-width: 960px; /* Set maximum width */
+    margin: 20px auto; /* Center the container horizontally with top and bottom margin */
+}
+
+.sub-banner1,
+.sub-banner2,
+.sub-banner3 {
+    width: 300px; /* Set fixed width */
+    height: 375px; /* Set fixed height */
+    background-color: #989292; /* Example background color */
+}
+
+.sub-banner1 h2,
+.sub-banner2 h2,
+.sub-banner3 h2,
+.bottom-container h2,
+.bottom-container-right h2 {
+    text-align: center;
+}
+
+/* CSS for the two additional containers */
+.bottom-containers {
+    display: flex;
+    gap: 30px; /* Set gap between flex items */
+    justify-content: space-between; /* Align items evenly with space between them */
+    max-width: 960px; /* Set maximum width */
+    margin: 20px auto; /* Center the container horizontally with top and bottom margin */
+}
+
+.bottom-container {
+    width: calc(50% - 10px); /* Set width for each container (50% minus spacing) */
+    height: 375px; /* Set height as needed */
+    background-color: #989292; /* Example background color */
+}
+
+.bottom-container-right {
+    width: calc(50% - 10px); /* Set width for each container (50% minus spacing) */
+    height: 375px; /* Set height as needed */
+     /* Example background color */
 }
