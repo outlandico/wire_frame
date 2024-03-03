@@ -130,3 +130,14 @@ ul li {
     width: 960px;
     height: 450px;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width:960px; 
+    height: 70px; /* Set height as needed */
+    background-color: #989292; /* Example background color */
+}
