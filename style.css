@@ -46,7 +46,7 @@ ul {
 
 ul li {
     padding: 0 10px;
-    margin-right:  80px;
+    margin-right:  80px;  /* Aligns nav menu items more spread apart from within each other
 }
 
 /* Additional CSS for other containers */
